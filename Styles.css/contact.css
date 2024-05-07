@@ -1,0 +1,242 @@
+body{
+    background-color: black;
+    color: white;
+    min-height: 106vh;
+}
+
+.bodyTransition{
+    height: 18cm;
+    z-index: 0;
+    position: absolute;
+    border: solid 1px white;
+    width: 39cm;
+    opacity: 0;
+    transition: 3s ease;
+    background-color: yellow;
+}
+.bodyTransition2{
+    opacity: 1;
+    background-image: url(/img/astrono.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+.boutton{
+        
+    height: 2cm;
+    margin-left: 31cm;
+    position: relative;
+    bottom: 138px;
+    display: flex;
+    justify-content: space-around;
+    width: 8cm;
+}
+
+a{
+   
+    color: white;
+}
+
+.boutton1 {
+    height: 1cm;
+    width: 3.5cm;
+    background-color: rgb(201 201 201 / 68%);
+    opacity: 1;
+    border-radius: 13%;
+}
+.boutton2{
+    height: 1cm;
+    width: 3.5cm;
+   background-color: rgb(0, 72, 255);
+   border-radius: 12%;
+}
+
+ 
+
+.liste{
+    display: flex;
+justify-content: center;
+list-style: none;
+font-size: 27px;
+width: 11cm;
+margin-left: 14cm;
+margin-bottom: 16px;
+position: relative;
+bottom: 85px;
+   
+
+}
+li{
+    margin-left:45px;
+    
+} 
+li:hover{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*
+.containerInformation
+    border: solid 1px white;
+    height: 17cm;
+    width: 16cm;
+    border-radius: 44px;
+    position: relative;
+    transition: 3s ease;
+    opacity: 0;
+    margin-left: -615px;
+ 
+    
+}*/
+
+.containerTransition {
+ 
+    margin-left: 176px;
+    opacity: 1;
+}
+
+
+
+
+
+.containerInformation2 {
+    border: solid 1px white;
+    height: 15cm;
+    width: 15cm;
+    position: relative;
+    right: 369px;
+    bottom: -1.2cm;
+    margin-left: 40cm;
+    border-radius: 44px;
+    position: relative;
+    opacity: 0;
+    z-index: 0;
+    transition: 1.5s ease;
+}
+
+.containerMessageTransition{
+    opacity: 1;
+    margin-left: 23.2cm;
+}
+
+
+
+.Nom {
+    width: 75%;
+    position: relative;
+    top: 3cm;
+    left: 1.9cm;
+    filter: brightness(70%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-top: 100px;
+    z-index: 999;
+
+}
+.Nom :hover{
+    filter: brightness(100%);
+}
+
+
+
+
+
+
+.Prenom{
+    width: 75%;
+    position: relative;
+    top: 3.5cm;
+    left: 1.9cm;
+    filter: brightness(70%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    z-index: 999;
+    border-top: 100px;
+}
+.Prenom  :hover{
+    filter: brightness(100%);
+}
+
+
+
+
+
+
+
+.Email{
+    width: 75%;
+    position: relative;
+    top: 4cm;
+    left: 1.9cm;
+    filter: brightness(70%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-top: 100px;
+    z-index: 999;
+}
+.Email :hover{
+    filter: brightness(100%);
+}
+
+
+
+.Number{
+    width: 75%;
+    position: relative;
+    top: 4.5cm;
+    left: 1.9cm;
+    filter: brightness(70%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-top: 100px;
+    z-index: 999;
+}
+.Number :hover{
+    filter: brightness(100%);
+}
+.Message{
+    width: 75%;
+    position: relative;
+    top: 4.9cm;
+    left: 1.9cm;
+    height: 4cm;
+    filter: brightness(70%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    z-index: 999;
+}
+.Message :hover{
+    filter: brightness(100%);
+}
+.Submit{
+    width: 33%;
+    position: relative;
+    height: 34px;
+    top: 5.5cm;
+    left: 5.3cm;
+    filter: brightness(70%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-top: 100px;
+    z-index: 1;
+}
+.Submit :hover{
+    filter: brightness(100%);
+}
+.H1Informaion{
+    text-align: center;
+    position: relative;
+    top: 92px;
+    z-index: 1;
+    filter: brightness(70%);
+}
+
+.Smessage {
+    z-index: index 0; 
+}

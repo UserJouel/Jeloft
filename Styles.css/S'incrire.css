@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+}    
+   
+
+
+/*logo*/
+.logo :nth-child(1){
+    width: 100%;
+    height: 105px;
+ }
+ 
+ 
+ 
+ /* header menu*/
+ 
+ header{
+     border-color: white;
+     color: rgb(255, 255, 255);
+     display: flex;
+     justify-content: center;
+     margin-bottom: 34px;
+     position: relative;
+     top: 20px;
+     gap: 0px 55px;
+     align-items: center;
+ }
+ header .menu{
+      
+ 
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+    gap: 0px 37px;
+    left: 32px;
+    width: 33%;
+    display: flex;
+    margin-right: 49px;
+     
+ }
+ 
+ .Acceuil{
+     color: rgb(255, 255, 255);
+     transition : 1.2s ease;
+ }
+ .Acceuil2{
+     transition : 1.2s ease;
+     color: #0D5BFF;
+ }
+ .Apropos{
+     
+     transition : 1.2s ease;
+ }
+ .Apropos2{
+     transition : 1.2s ease;
+     color: #0D5BFF;
+ }
+ .Contact{
+     
+     transition : 1.2s ease;
+ }
+ .Contact2{
+     transition : 1.2s ease;
+     color: #0D5BFF;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /* boutton*/
+ .button{
+     display: flex;
+     font-size: 18px;
+     gap: 0px 3px;
+     align-content: center;
+     align-items: center;
+     position: relative;
+     left: 0px;
+ }
+ .button :nth-child(1){
+     border-radius: 12px;
+     color: white;
+     width: 142px;
+     height: 38px;
+ }
+ 
+ .button :nth-child(2){
+     
+     border-radius: 12px;
+     color: white;
+ }
+ 
+ a :nth-child(1) {
+     background-color:  #3E4345;
+     
+ }
+ 
+
+/* MenuResponsible */
+.MenuResponsible {
+   
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
+
+.MenuResponsibleImage{
+    height: 0px;
+    width: 0px;
+}
+
+
+
+
+
+ 
+/* BODY*/
+
+body{
+    background-color: black;
+    height: 100vh;
+   
+}
+
+/* formulaire*/
+
+.formulaire{
+   /* border: solid 1px red;
+    height: 10cm;border: solid 1px red;*/
+    height: 11cm;
+    position: relative;
+    margin-top: 1.6cm;
+    display: flex;
+    justify-content: center;
+}
+ 
+form{
+   
+    border: solid 1px rgb(255, 252, 252);
+    height: 11cm;
+    color: white;
+    position: relative;
+    margin-top: 0.6cm;
+    right: 2.4cm;
+    display: flex;
+    width: 33%;
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form h1{
+    font-size: 26px;
+    position: relative;
+    bottom: 134px;
+    text-align: center;
+    filter: brightness(70%);
+}
+
+.Nom{
+    color: rgb(40, 15, 15);
+    height: fit-content;
+    width: 71%;
+    bottom: 104px;
+    position: relative;
+    align-self: center;
+    text-align: center;
+    filter: brightness(70%);
+}
+
+.Prenom{
+    color: rgb(40, 15, 15);
+    height: fit-content;
+    width: 71%;
+    bottom: 100px;
+    position: relative;
+    align-self: center;
+    filter: brightness(70%);
+    text-align: center;
+}
+
+.Email{
+    color: rgb(40, 15, 15);
+    height: fit-content;
+    width: 71%;
+    bottom: 97px;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    filter: brightness(70%);
+}
+
+.Password{
+    color: rgb(40, 15, 15);
+    height: fit-content;
+    width: 71%;
+    bottom: 92px;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    filter: brightness(70%);
+}
+
+.Submit{
+    color: rgb(40, 15, 15);
+    height: fit-content;
+    width: 28%;
+    bottom: 92px;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    filter: brightness(70%);
+}
