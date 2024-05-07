@@ -850,7 +850,7 @@ body{
         top: 1cm;
         width: 20px;
         display: flex;
-        width: 159px;
+        width: 100%;
         position: relative;
         flex-direction: column;
     }
